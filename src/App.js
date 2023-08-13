@@ -1,4 +1,3 @@
-import './App.css';
 import MyNavbar from './MyNavbar';
 import MyRoutes from './MyRoutes';
 
