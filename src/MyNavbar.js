@@ -14,8 +14,8 @@ function MyNavbar() {
             <LinkContainer to="/">
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/test">
-              <Nav.Link>Test</Nav.Link>
+            <LinkContainer to="/stxex">
+              <Nav.Link>Stacks Explorer</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
