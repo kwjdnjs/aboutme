@@ -1,10 +1,10 @@
-import MyNavbar from './MyNavbar';
-import MyRoutes from './MyRoutes';
+import MyNavbar from "./MyNavbar";
+import MyRoutes from "./MyRoutes";
 
 function App() {
   return (
     <div className="App">
-      <MyNavbar />
+      {/*<MyNavbar />*/}
       <MyRoutes />
     </div>
   );

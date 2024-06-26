@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import TxList from "../components/TxList";
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import SearchBox from "../components/SearchBox";
 
 function StxExDetail() {
@@ -8,8 +8,12 @@ function StxExDetail() {
 
   return (
     <Container>
-      <SearchBox address={address} />
-      <TxList address={address} />
+      <Row className="justify-content-md-center">
+        <SearchBox address={address} />
+      </Row>
+      <Row className="justify-content-md-center">
+        <TxList address={address} />
+      </Row>
     </Container>
   );
 }

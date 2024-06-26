@@ -1,18 +1,14 @@
-import './../styles/common.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import "./../styles/home.css";
+import crtImg from "./../images/crt.png";
 
 function Home() {
   return (
-    <>
-      <Container className="my-5">
-        <Row className="justify-content-md-center">
-          <Col md="auto" className="text-center">
-            <h1>About Me</h1>
-            <h2>나를 나타내는 방법</h2>
-          </Col>
-        </Row>
-      </Container>
-    </>
+    <main className="main-container">
+      <div className="img-container">
+        <img className="crt-img" src={crtImg} alt="Centered Image" />
+        <div className="crt-text">Don't Panic!</div>
+      </div>
+    </main>
   );
 }
 

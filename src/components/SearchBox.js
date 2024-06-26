@@ -19,11 +19,13 @@ function SearchBox({ address }) {
 
   return (
     <Form.Control
+      className="mt-4"
       type="text"
-      placeholder="input"
+      placeholder="주소를 입력해주세요"
       value={value}
       onKeyDown={handleKeyDown}
       onChange={handleChange}
+      style={{ width: "50rem" }}
     />
   );
 }

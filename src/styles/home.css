@@ -1,0 +1,49 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.img-container {
+  position: relative;
+}
+
+.crt-img {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+@keyframes flicker {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 3px #0f0, 0 0 6px #0f0, 0 0 9px #0f0, 0 0 12px #0f0,
+      0 0 15px #0f0;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+.crt-text {
+  position: absolute;
+  top: 48%;
+  left: 41%;
+  transform: translate(-50%, -50%);
+  font-size: 6.5em;
+  color: #fff;
+  text-shadow: 0 0 3px #0f0, 0 0 6px #0f0, 0 0 9px #0f0, 0 0 12px #0f0,
+    0 0 15px #0f0;
+  animation: flicker 1.5s infinite;
+}
