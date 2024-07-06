@@ -1,0 +1,57 @@
+/* LP */
+
+.lp-record-container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 20px 0;
+}
+
+.lp-record {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  clip-path: circle(50%);
+  animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.lp-circle-large {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 3px #000;
+}
+
+.lp-circle-small {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background: #000;
+  border-radius: 50%;
+}
+
+/* 모바일 환경의 경우 */
+@media (max-width: 768px) {
+  .lp-record-container {
+    width: 400px;
+    height: 400px;
+  }
+}
