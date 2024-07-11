@@ -1,0 +1,85 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.main-text {
+  font-family: Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic ProN,
+    Meiryo, MS Gothic;
+}
+
+/* 모바일 환경의 경우 */
+@media (max-width: 768px) {
+  .main-text {
+    font-size: 1.5em;
+  }
+}
+
+/* CRT */
+
+.img-container {
+  position: relative;
+}
+
+.crt-img {
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-bottom: 50px;
+}
+
+@keyframes flicker {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0 0 3px #0f0, 0 0 6px #0f0, 0 0 9px #0f0, 0 0 12px #0f0,
+      0 0 15px #0f0;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+@font-face {
+  font-family: "Yellowtail";
+  font-weight: normal;
+  src: url("./../fonts/Yellowtail-Regular.ttf") format("truetype");
+}
+
+.crt-text {
+  position: absolute;
+  top: 44%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  font-family: "Yellowtail", sans-serif;
+  font-size: 8em;
+  color: #fff;
+  text-shadow: 0 0 3px #0f0, 0 0 6px #0f0, 0 0 9px #0f0, 0 0 12px #0f0,
+    0 0 15px #0f0;
+  animation: flicker 1.5s infinite;
+}
+
+/* 모바일 환경의 경우 */
+@media (max-width: 768px) {
+  .crt-img {
+    width: 400px;
+  }
+
+  .crt-text {
+    top: 40%;
+    font-size: 3em;
+  }
+}
