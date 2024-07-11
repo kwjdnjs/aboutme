@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/aboutme/static/css/main.073c9b0a.css",
-    "main.js": "/aboutme/static/js/main.f4a1c986.js",
-    "static/js/787.bf6be429.chunk.js": "/aboutme/static/js/787.bf6be429.chunk.js",
-    "static/media/logo.svg": "/aboutme/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/aboutme/static/css/main.f9a85b9b.css",
+    "main.js": "/aboutme/static/js/main.96d996f6.js",
+    "static/js/453.0fbe92db.chunk.js": "/aboutme/static/js/453.0fbe92db.chunk.js",
+    "static/media/crt.png": "/aboutme/static/media/crt.7aec2171ed87f1d6676f.png",
+    "static/media/125e8991.jpeg": "/aboutme/static/media/ab67616d0000b2738c4e95986c803791125e8991.d659d63486fe38ef7c8b.jpeg",
+    "static/media/Yellowtail-Regular.ttf": "/aboutme/static/media/Yellowtail-Regular.68015177cbf9575be4a4.ttf",
     "index.html": "/aboutme/index.html",
-    "main.073c9b0a.css.map": "/aboutme/static/css/main.073c9b0a.css.map",
-    "main.f4a1c986.js.map": "/aboutme/static/js/main.f4a1c986.js.map",
-    "787.bf6be429.chunk.js.map": "/aboutme/static/js/787.bf6be429.chunk.js.map"
+    "main.f9a85b9b.css.map": "/aboutme/static/css/main.f9a85b9b.css.map",
+    "main.96d996f6.js.map": "/aboutme/static/js/main.96d996f6.js.map",
+    "453.0fbe92db.chunk.js.map": "/aboutme/static/js/453.0fbe92db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f4a1c986.js"
+    "static/css/main.f9a85b9b.css",
+    "static/js/main.96d996f6.js"
   ]
 }
